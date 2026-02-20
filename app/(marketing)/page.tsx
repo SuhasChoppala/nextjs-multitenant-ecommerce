@@ -16,9 +16,7 @@ export default function Home() {
       <div>
         <Progress value={50} />
       </div>
-      <div>
-        <Textarea value="I am a text area" />
-      </div>
+      <div>{/* <Textarea value="I am a text area" /> */}</div>
       <div>
         <Checkbox />
       </div>

@@ -1,3 +1,4 @@
+import { Navbar } from "@/components/marketing/navbar";
 interface Props {
   children: React.ReactNode;
 }
@@ -5,7 +6,7 @@ interface Props {
 const Layout = ({ children }: Props) => {
   return (
     <div>
-      <nav className="bg-amber-50">Home</nav>
+      <Navbar />
       {children}
     </div>
   );
